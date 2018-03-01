@@ -1377,6 +1377,10 @@ boost_library(
 )
 
 boost_library(
+    name = "qvm",
+)
+
+boost_library(
     name = "test",
     exclude_src = glob(["libs/test/src/*.cpp"]),
     deps = [
